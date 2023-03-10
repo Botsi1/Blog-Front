@@ -17,9 +17,9 @@ import "./style.scss";
 const Layout = () => {
 return (
     <>
-      <Navbar />
+    <Navbar />
     <Outlet />
-     <Footer />
+    <Footer />
    </>
    );
  };
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
    element: <Layout />,
    children: [
       {
-        path: "/",
+       path: "/",
        element: <Home />,
       },
      {
